@@ -1,6 +1,6 @@
 #include <iostream>   // for cin, cout (input/output)
 #include <string>     // to allow use of the string data type
-using namespace std;
+using namespace std; //so no need std
 
 int main() {
     string name;              // stores the student's name
@@ -24,7 +24,7 @@ int main() {
     cout << "\nName: " << name << endl;
     cout << "Math: " << math << ", Science: " << science << ", English: " << english << endl;
     cout << "Total: " << total << endl;
-    cout << "Average: " << average << endl;
+    cout << "Average: " << average << endl; //endl moves cursor to nect line
 
     return 0;  // end of program
 }

@@ -7,13 +7,13 @@ int main() {
     double marks[3][3];     // 2D array: row = student, column = subject
 
     // Loop through each student to collect data
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 3; i++) {       // 3 students, 0 1 2)
         cout << "Enter name of student " << i + 1 << ": ";
-        cin >> names[i];             // store name of student i
+        cin >> names[i];             // store name of student i 
 
         // Inner loop collects marks for each subject of student i
         for (int j = 0; j < 3; j++) {
-            cout << "Enter mark for subject " << j + 1 << ": ";
+            cout << "Enter mark for subject " << j + 1 << ": ";        //3 subjects
             cin >> marks[i][j];       // store mark for student i, subject j
         }
     }

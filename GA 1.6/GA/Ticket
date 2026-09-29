@@ -1,0 +1,10 @@
+TicketID|CustomerName|MovieTitle|Genre|Classification|Language|Duration|Hall|Showtime|SeatCode|TicketType|TicketPrice|Status
+1001|Len Pei Ying|Kung Fu Soccer|Comedy|P12|Mandarin|1h 46m|Hall 5|16:30|K01|Student|12.00|SERVED
+1002|F08|Kung Fu Soccer|Comedy|P12|Mandarin|1h 46m|Hall 5|16:30|F08|Student|12.00|CANCELLED
+1003|LPY|Kung Fu Soccer|Comedy|P12|Mandarin|1h 46m|Hall 5|16:30|F09|Student|12.00|CANCELLED
+1004|LPY|Spider-Man: Brand New Day|Action|P12|English|2h 15m|Hall 1|10:00|B02|Student|12.00|SERVED
+1005|Len Pei Ying|Spider-Man: Brand New Day|Action|P12|English|2h 15m|Hall 1|10:00|G08|Student|12.00|SERVED
+1006|Len Pei Ying|Spider-Man: Brand New Day|Action|P12|English|2h 15m|Hall 1|10:00|E08|Adult|18.00|SERVED
+1007|Len Pei Ying|Spider-Man: Brand New Day|Action|P12|English|2h 15m|Hall 1|10:00|E09|Student|12.00|SERVED
+1008|Len Pei Ying|Minions & Monsters|Animation|U|English|1h 30m|Hall 1|09:30|D08|Adult|18.00|SERVED
+1009|Len Pei Ying|Minions & Monsters|Animation|U|English|1h 30m|Hall 1|09:30|D09|Adult|18.00|SERVED

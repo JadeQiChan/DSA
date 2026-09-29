@@ -2,40 +2,45 @@
 #include <string>
 using namespace std;
 
-class Student {
-    public: 
-        string Name;
-        string Course;
-        string Student_id;
-
-        void StudentProfile(){
-            cout << "Student Name - " << Name << endl;
-            cout << "Course - " << Course << endl;
-            cout << "Student ID - " << Student_id << endl;
-        }
-
+// ---------- Abstraction ----------
+class Person {
+public:
+    // Pure virtual function — no implementation here.
+    // Any class inheriting from Person MUST provide its own version.
+    virtual void introduce() const = 0;
 };
 
-int main () {
+// ---------- Inheritance ----------
+class Student : public Person {
+private:
+    // ---------- Encapsulation (kept from Stage 1) ----------
+    string name;
+    string course;
+    string studentID;
+
+public:
+    void setDetails(string n, string c, string id) {
+        name = n;
+        course = c;
+        studentID = id;
+    }
+
+    string getName() const      { return name; }
+    string getCourse() const    { return course; }
+    string getStudentID() const { return studentID; }
+
+    // ---------- Polymorphism ----------
+    void introduce() const override {
+        cout << "Student Name - " << name << endl;
+        cout << "Course - " << course << endl;
+        cout << "Student ID - " << studentID << endl;
+    }
+};
+
+int main() {
     Student student1;
-        student1.Name = "Jivindra";
-        student1.Course = "Quest International University";
-        student1.Student_id = 29;
-        student1.StudentProfile();
-        cout << endl;
+    student1.setDetails("Jivindra", "Quest International University", "29");
+    student1.introduce();
 
-    Student student2;
-        student2.Name = "Jivindra";
-        student2.Course = "Quest International University";
-        student2.Student_id = 29;
-        student2.StudentProfile();
-        cout << endl;
-
-
-    Student student3;
-        student3.Name = "Jivindra";
-        student3.Course = "Quest International University";
-        student3.Student_id = 29;
-        student3.StudentProfile();
-        cout << endl;
+    return 0;
 }

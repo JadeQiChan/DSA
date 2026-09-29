@@ -1,0 +1,31 @@
+Cinema Ticket Booking System Report
+Generated At: 2026-08-17 02:23:31
+
+System Summary
+Total tickets: 9
+Waiting tickets: 0
+Served tickets: 7
+Cancelled tickets: 2
+Cancellations in log: 0
+
+Total active revenue: RM102.00
+
+Tickets Sorted by Ticket ID
+  Ticket #1001 | Len Pei Ying | Kung Fu Soccer | Comedy | P12 | Mandarin | 1h 46m | Hall 5 | 16:30 | K01 | Student | RM12.00 | SERVED
+  Ticket #1002 | F08 | Kung Fu Soccer | Comedy | P12 | Mandarin | 1h 46m | Hall 5 | 16:30 | F08 | Student | RM12.00 | CANCELLED
+  Ticket #1003 | LPY | Kung Fu Soccer | Comedy | P12 | Mandarin | 1h 46m | Hall 5 | 16:30 | F09 | Student | RM12.00 | CANCELLED
+  Ticket #1004 | LPY | Spider-Man: Brand New Day | Action | P12 | English | 2h 15m | Hall 1 | 10:00 | B02 | Student | RM12.00 | SERVED
+  Ticket #1005 | Len Pei Ying | Spider-Man: Brand New Day | Action | P12 | English | 2h 15m | Hall 1 | 10:00 | G08 | Student | RM12.00 | SERVED
+  Ticket #1006 | Len Pei Ying | Spider-Man: Brand New Day | Action | P12 | English | 2h 15m | Hall 1 | 10:00 | E08 | Adult | RM18.00 | SERVED
+  Ticket #1007 | Len Pei Ying | Spider-Man: Brand New Day | Action | P12 | English | 2h 15m | Hall 1 | 10:00 | E09 | Student | RM12.00 | SERVED
+  Ticket #1008 | Len Pei Ying | Minions & Monsters | Animation | U | English | 1h 30m | Hall 1 | 09:30 | D08 | Adult | RM18.00 | SERVED
+  Ticket #1009 | Len Pei Ying | Minions & Monsters | Animation | U | English | 1h 30m | Hall 1 | 09:30 | D09 | Adult | RM18.00 | SERVED
+
+Searching Algorithm Comparison
+Linear Search: O(n), checks records one by one and does not need sorted data.
+Binary Search: O(log n), faster on sorted data but requires ticket IDs to be sorted first.
+For small unsorted data, linear search is simpler. For large sorted data, binary search performs better.
+
+Sorting Algorithm: Insertion Sort
+Insertion sort comparisons: 8
+Insertion sort shifts: 0
